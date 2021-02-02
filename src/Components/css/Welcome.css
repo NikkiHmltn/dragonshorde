@@ -1,0 +1,17 @@
+.carousel-container {
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 450px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 550px;
+ }
