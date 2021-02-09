@@ -27,3 +27,12 @@
     display: flex;
     justify-content: center;
 }
+
+.conduct {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.conduct > h2, .conduct > h3 {
+    text-align: center;
+}
