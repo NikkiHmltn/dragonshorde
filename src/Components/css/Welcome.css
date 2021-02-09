@@ -1,6 +1,6 @@
 .carousel-container {
     height: 200px;
-    width: 80%;
+    width: 75%;
     margin: 2% auto;
 }
 
@@ -13,5 +13,17 @@
 }
 
 .carousel-inner > .carousel-item > img {
-    height: 550px;
- }
+    height: 525px;
+}
+
+.tourney-info {
+    margin: 0 auto;
+    width: 60%;
+    margin-left: 10%;
+}
+
+.calendar {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Iframe from 'react-iframe'
 import ShopLinks from './ShopLinks'
 import './css/Welcome.css'
 import magiccarousel from './imgs/khm_key_1080p_en.jpg'
@@ -51,6 +52,16 @@ export default class Welcome extends Component {
             </div>
             <br></br>
             <ShopLinks />
+            <div className="tourney-info">
+                <h3>Interested in Tournaments?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet purus gravida quis blandit turpis. Varius morbi enim nunc faucibus a pellentesque sit. Nec sagittis aliquam malesuada bibendum. Elit eget gravida cum sociis natoque penatibus.</p>
+                <br></br>
+                <h5>COVID-19 Information</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Dignissim convallis aenean et tortor at. Amet consectetur adipiscing elit duis. Elit pellentesque habitant morbi tristique senectus et.</p>
+            </div>
+            <div className="calendar">
+            <Iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23A79B8E&amp;ctz=America%2FLos_Angeles&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Events" style={{border: "solid 1px #777"}} width="800" height="600" frameborder="0" scrolling="no"/>
+            </div>
             </>
         )
     }
