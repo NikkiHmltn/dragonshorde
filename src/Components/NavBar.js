@@ -1,14 +1,20 @@
 import {Link, NavLink} from 'react-router-dom'
-import './css/NavBar'
+import './css/NavBar.css'
 
 function NavBar() {
     return(
         <>
-            <nav>
-                <NavLink to="/" />
-                <NavLink to="/Cards" />
-                <NavLink to="/BoardGames" />
-                <NavLink to="/Contact Us" />
+            <nav className="navbar sticky-top">
+                <div className="nav-title">
+                    THE DRAGON'S HORDE
+                </div>
+                <div className="nav-items">
+                    <NavLink id="nav-item" exact to="/">HOME</NavLink>
+                    <NavLink id="nav-item" to="/Cards">COLLECTIONS</NavLink>
+                    <NavLink id="nav-item" to="/BoardGames">BOARDGAMES</NavLink>
+                    <NavLink id="nav-item" to="/Contact Us">CONTACT US</NavLink>
+                </div>
+
             </nav>
         </>
     )

@@ -14,7 +14,6 @@ export default class Welcome extends Component {
     render() {
         return(
             <>
-            <h1>Welcome to Dragons Horde!</h1>
             <div className="carousel-container">
                 <div id="carousel-welcome" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-inner">

@@ -1,0 +1,22 @@
+.navbar {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    float: left;
+    margin-left: 5%;
+}
+
+.nav-items {
+    margin-right: 10%;
+}
+
+.nav-items > #nav-item{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
