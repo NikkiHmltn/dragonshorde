@@ -1,0 +1,11 @@
+.shop-items {
+    margin: 25% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.links-shop > img{
+    margin: 30px;
+}

@@ -5,7 +5,7 @@ import Contact from './Components/Contact'
 import BoardGames from './Components/BoardGames'
 import NavBar from './Components/NavBar'
 import {Route} from 'react-router-dom'
-import './App.css';
+
 
 function App() {
   return (

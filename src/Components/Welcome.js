@@ -1,16 +1,16 @@
 import React, {Component} from 'react'
+import ShopLinks from './ShopLinks'
 import './css/Welcome.css'
 import magiccarousel from './imgs/khm_key_1080p_en.jpg'
 import pokecarousel from './imgs/vividvoltage.png'
 import boardgame from './imgs/BMM3_Press.png'
 
+
 export default class Welcome extends Component {
     constructor() {
         super()
     }
-    componentDidMount() {
-        
-    }
+    
     render() {
         return(
             <>
@@ -49,7 +49,8 @@ export default class Welcome extends Component {
                 </a>
             </div>
             </div>
-            
+            <br></br>
+            <ShopLinks />
             </>
         )
     }
