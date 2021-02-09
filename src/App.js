@@ -4,6 +4,7 @@ import Events from './Components/Events'
 import Contact from './Components/Contact'
 import BoardGames from './Components/BoardGames'
 import NavBar from './Components/NavBar'
+import Footer from './Components/Footer'
 import {Route} from 'react-router-dom'
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/contact" component={Contact} />
       <Route path="/boardgames" component={BoardGames} />
     </div>
+    <Footer />
     </>
   );
 }
