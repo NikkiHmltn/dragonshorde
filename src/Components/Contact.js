@@ -1,9 +1,11 @@
+import './css/Contact.css'
+
 function Contact() {
     return(
         <>
             <form>
-                <div>
-                    <div>Contact Us</div>
+                <div className="container-contact">
+                    <div><h2>Contact Us</h2></div>
                     <div>
                         <input type="text" name="name" id="name"/>
                     </div>

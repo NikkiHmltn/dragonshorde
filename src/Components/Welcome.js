@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import NavBar from './NavBar'
+import Footer from './Footer'
 import Iframe from 'react-iframe'
 import ShopLinks from './ShopLinks'
 import './css/Welcome.css'
@@ -15,6 +17,7 @@ export default class Welcome extends Component {
     render() {
         return(
             <>
+            <NavBar />
             <div className="carousel-container">
                 <div id="carousel-welcome" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-inner">
@@ -75,6 +78,7 @@ export default class Welcome extends Component {
                 <h3>Store Policy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices dui sapien eget mi proin sed libero. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Arcu vitae elementum curabitur vitae nunc sed velit. Maecenas accumsan lacus vel facilisis volutpat.</p>
             </div>
+            <Footer />
             </>
         )
     }
