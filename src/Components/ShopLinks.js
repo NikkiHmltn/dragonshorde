@@ -7,9 +7,19 @@ function ShopLinks() {
     return(
         <div className="shop-items">
             <div className="links-shop">
-                <img src={magicbox} height="200" width="200"/>
-                <img src={supplies} height="200" width="200"/>
-                <img src={boardgame} height="200" width="200"/>
+                <div className="shop-titles">
+                    <h2>CARDS</h2>
+                    <h2>SUPPLIES</h2>
+                    <h2>BOARDGAMES</h2>
+                </div>
+                
+                <img src={magicbox} height="200" width="200" id="cards"/>  
+        
+
+                <img src={supplies} height="200" width="200" id="supplies"/>    
+        
+                <img src={boardgame} height="200" width="200" id="games"/>    
+                
             </div>
         </div>
     )
