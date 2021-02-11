@@ -1,9 +1,18 @@
 .container-contact {
     height: 60%;
     width: 40%;
-    border: 2px solid black;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5%;
     margin: 6% auto;
-    padding: 5% 10% 10% 10%;
+    padding: 5% 10% 5% 10%;
     font-family: "Magic";
+}
+
+.input-forms {
+    padding: 1.5vh;
+    width: 40vh;
+}
+
+button {
+    margin: 5%;
 }
