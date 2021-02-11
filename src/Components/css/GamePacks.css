@@ -6,6 +6,15 @@
     justify-items: center;
 }
 
+.col-title {
+    font-family: "Magic";
+    text-align: center;
+    margin: 5% auto;
+    font-size: 50px;
+    border-bottom: solid black 1px;
+    width: 50%;
+}
+
 .yugioh img{
     height: 30vh;
     margin: 0 auto;
@@ -22,4 +31,25 @@
     height: 30vh;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+.information {
+    width: 50%;
+    margin: 5% auto;
+    font-family: Helvetica, sans-serif;
+}
+
+.fade-in {
+    animation: fade ease 3s;
+}
+
+@keyframes fade {
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
 }
