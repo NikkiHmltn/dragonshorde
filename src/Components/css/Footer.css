@@ -1,11 +1,19 @@
 .footer {
-    height: 50px;
-    background-color: black;
+    height: 80px;
+    background-color: rgb(51, 54, 58);
     color: white;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .foot-note {
-    margin: 1%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.footer img {
+    height: 40px;
+    width: 40px;
+    filter: invert(100%);
+    margin-top: 0.5%;
 }
