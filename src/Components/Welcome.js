@@ -18,7 +18,7 @@ export default class Welcome extends Component {
         return(
             <>
             <NavBar />
-            <div className="carousel-container">
+            <div className="carousel-container fade-in">
                 <div id="carousel-welcome" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">

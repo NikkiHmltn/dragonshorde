@@ -9,7 +9,7 @@ function NavBar() {
                     THE DRAGON'S HORDE
                 </div>
                 <div className="nav-items">
-                    <NavLink id="nav-item" exact to="/">HOME</NavLink>
+                    <NavLink id="nav-item" exact to="/welcome">HOME</NavLink>
                     <NavLink id="nav-item" to="/collections">COLLECTIONS</NavLink>
                     <NavLink id="nav-item" to="/boardgames">BOARDGAMES</NavLink>
                     <NavLink id="nav-item" to="/contact">CONTACT US</NavLink>
