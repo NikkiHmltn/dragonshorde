@@ -1,0 +1,21 @@
+.boardgames {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.boardgames img {
+    width: 100vh;
+    margin: 3%;
+}
+
+.boardgames h2 {
+    font-family: "Magic";
+    text-align: center;
+    border-bottom: black solid 1px;
+    margin: 4% auto;
+    width: 50%;
+}
+
+.boardgames p {
+    font-family: Helvetica, sans-serif;
+}
