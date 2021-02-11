@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Magic";
+    src: url('./magicfont.ttf') format('truetype')
+}
+
 .navbar {
     background-color: black;
     color: white;
@@ -9,10 +14,12 @@
 .nav-title {
     float: left;
     margin-left: 5%;
+    font-family: "Magic";
 }
 
 .nav-items {
     margin-right: 10%;
+    font-family: "Magic";
 }
 
 .nav-items > #nav-item{

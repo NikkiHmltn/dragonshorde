@@ -25,7 +25,10 @@ function Intro() {
                 <span>R</span>
                 <span>D</span>
                 <span>E</span>
+                <br></br>
+                <p className="intro-enter"><a href="/welcome">Enter</a></p>
             </h1>
+            
             </section>
         </div>
         
