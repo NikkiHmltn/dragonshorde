@@ -68,13 +68,13 @@ export default class Welcome extends Component {
 
             <div className="conduct">
                 <h2>Code of Conduct</h2>
-                <ol>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                </ol>
+                <ul>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/1-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/2-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/3-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/4-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/5-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                </ul>
                 <h3>Store Policy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices dui sapien eget mi proin sed libero. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Arcu vitae elementum curabitur vitae nunc sed velit. Maecenas accumsan lacus vel facilisis volutpat.</p>
             </div>

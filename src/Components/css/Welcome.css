@@ -41,6 +41,19 @@ body {
     margin: 0 auto;
 }
 
+.conduct ul {
+    list-style: none;
+}
+
+.conduct > ul > li {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+.conduct img {
+    padding: 1vh;
+}
+
 .conduct > h2, .conduct > h3 {
     text-align: center;
     font-family: "Magic";
