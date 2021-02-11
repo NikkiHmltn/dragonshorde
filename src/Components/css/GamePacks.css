@@ -1,0 +1,25 @@
+.collection-container {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: center;
+}
+
+.yugioh img{
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.magic img {
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.pokemon img {
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 50%;
+}

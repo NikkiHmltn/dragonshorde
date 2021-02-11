@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Route exact path="/" component={Intro} />
       <Route path="/welcome" component={Welcome} />
-      <Route path="/gamepacks" component={GamePacks} />
+      <Route path="/collections" component={GamePacks} />
       <Route path="/events" component={Events} />
       <Route path="/contact" component={Contact} />
       <Route path="/boardgames" component={BoardGames} />
