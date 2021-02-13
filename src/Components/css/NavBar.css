@@ -5,7 +5,7 @@
 
 .navbar {
     background-color: rgb(51, 54, 58);
-    color: white;
+    color: rgb(226, 226, 226);
     height: 75px;
     display: flex;
     align-items: center;
@@ -20,11 +20,12 @@
 
 .nav-items {
     margin-right: 10%;
-    font-family: "Magic";
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .nav-items > #nav-item{
-    color: white;
+    color: rgb(202,209,216);
     text-decoration: none;
     padding: 10px;
 }

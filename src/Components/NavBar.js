@@ -12,6 +12,7 @@ function NavBar() {
                     <NavLink id="nav-item" exact to="/welcome">HOME</NavLink>
                     <NavLink id="nav-item" to="/collections">COLLECTIONS</NavLink>
                     <NavLink id="nav-item" to="/boardgames">BOARDGAMES</NavLink>
+                    <NavLink id="nav-item" to="/dnd">D&D</NavLink>
                     <NavLink id="nav-item" to="/contact">CONTACT US</NavLink>
                 </div>
 
