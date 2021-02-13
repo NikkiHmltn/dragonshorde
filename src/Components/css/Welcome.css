@@ -1,5 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
+    background-color: rgb(14, 17, 22);
+    color: rgb(202,209,216);
 }
 
 .carousel-container {
@@ -52,6 +54,7 @@ body {
 
 .conduct img {
     padding: 1vh;
+    filter: invert(100%);
 }
 
 .conduct > h2, .conduct > h3 {
