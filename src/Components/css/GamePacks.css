@@ -11,7 +11,7 @@
     text-align: center;
     margin: 5% auto;
     font-size: 50px;
-    border-bottom: solid black 1px;
+    border-bottom: solid rgb(202,209,216) 1px;
     width: 50%;
 }
 
@@ -19,18 +19,21 @@
     height: 30vh;
     margin: 0 auto;
     border-radius: 50%;
+    border: solid 3px rgb(202,209,216);
 }
 
 .magic img {
     height: 30vh;
     margin: 0 auto;
     border-radius: 50%;
+    border: solid 3px rgb(202,209,216);
 }
 
 .pokemon img {
     height: 30vh;
     margin: 0 auto;
     border-radius: 50%;
+    border: solid 3px rgb(202,209,216);
 }
 
 .information {

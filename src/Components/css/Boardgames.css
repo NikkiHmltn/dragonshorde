@@ -11,7 +11,7 @@
 .boardgames h2 {
     font-family: "Magic";
     text-align: center;
-    border-bottom: black solid 1px;
+    border-bottom: rgb(202,209,216) solid 1px;
     margin: 4% auto;
     width: 50%;
 }
