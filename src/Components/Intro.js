@@ -5,7 +5,7 @@ function Intro() {
     return(
         <>
         <div className="body-intro">
-            <section>
+            <section id="section">
                 <video src={video} autoPlay muted></video>
             <h1 className="intro-name">
                 <span>T</span>

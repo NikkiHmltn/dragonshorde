@@ -1,21 +1,54 @@
 .boardgames {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
-.boardgames img {
-    width: 100vh;
-    margin: 3%;
+.title-img {
+    position: relative;
+    background-image: url('../imgs/boardgames.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    width: 100%;
+   height: 100vh;
 }
 
-.boardgames h2 {
-    font-family: "Magic";
+#cover-title{
+    filter: drop-shadow(20px 20px 10px #000);
+    font-size: 320px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.5rem;
     text-align: center;
-    border-bottom: rgb(202,209,216) solid 1px;
-    margin: 4% auto;
-    width: 50%;
 }
 
 .boardgames p {
     font-family: Helvetica, sans-serif;
+    width: 60%;
+    margin: 5% auto;
+}
+
+.parallax {  
+  background-image: url('../imgs/catan.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-inner {
+    font-family: "Magic";
+    letter-spacing: 0.3em;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    text-align: center;
+    font-size: 500%;
+    color: rgb(177, 1, 1);
+    filter: drop-shadow(20px 20px 10px #000);
+}
+
+.boardgame-items {
+    width: 60%;
+    margin: 0 auto;
 }
