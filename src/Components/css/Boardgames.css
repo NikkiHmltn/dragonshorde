@@ -60,7 +60,15 @@
 
 .card {
     background-color: rgb(14, 17, 22);
-    border-color: rgb(202,209,216);
+    border-color: rgb(49,54,60);
     margin: 3%;
 }
 
+.card-suggestion {
+    font-size: 12px;
+    padding-bottom: 5%;
+}
+
+.card-text {
+    font-size: 14px;
+}
