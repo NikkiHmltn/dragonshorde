@@ -49,6 +49,18 @@
 }
 
 .boardgame-items {
-    width: 60%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(14, 17, 22);
+    justify-content: space-evenly;
 }
+
+.card {
+    background-color: rgb(14, 17, 22);
+    border-color: rgb(202,209,216);
+    margin: 3%;
+}
+
