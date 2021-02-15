@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
 import Iframe from 'react-iframe'
+import {Link} from 'react-router-dom'
 import ShopLinks from './ShopLinks'
 import './css/Welcome.css'
 import magiccarousel from './imgs/khm_key_1080p_en.jpg'
@@ -24,22 +25,19 @@ export default class Welcome extends Component {
                     <div className="carousel-item active">
                     <img src={magiccarousel} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Buy Magic!</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <button className="btn btn-danger "><Link to="/collections">View Collection</Link></button>
                     </div>
                     </div>
                     <div className="carousel-item">
                     <img src={pokecarousel} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Buy Pokemon!</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button className="btn btn-danger "><Link to="/collections">View Collection</Link></button>
                     </div>
                     </div>
                     <div className="carousel-item">
                     <img src={boardgame} className="d-block w-100" alt="..." />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Buy Board</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <button className="btn btn-danger "><Link to="/boardgames"> View Board Games</Link></button>
                     </div>
                     </div>
                 </div>
@@ -63,7 +61,8 @@ export default class Welcome extends Component {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Dignissim convallis aenean et tortor at. Amet consectetur adipiscing elit duis. Elit pellentesque habitant morbi tristique senectus et.</p>
             </div>
             <div className="calendar">
-            <iframe src="https://calendar.google.com/calendar/embed?src=dragonshordeslt%40gmail.com&ctz=America%2FLos_Angeles" style={{border: "0"}} width="800" height="600" frameborder="0" scrolling="no"></iframe>            </div>
+            <Iframe src="https://calendar.google.com/calendar/embed?src=dragonshordeslt%40gmail.com&ctz=America%2FLos_Angeles" style={{border: "0"}} width="800" height="600" frameborder="0" scrolling="no"/>        
+            </div>
 
             <div className="conduct">
                 <h2>Code of Conduct</h2>
