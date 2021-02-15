@@ -1,3 +1,5 @@
+
+
 .collection-container {
     display: flex;
     justify-content:space-evenly;
@@ -15,7 +17,7 @@
     width: 50%;
 }
 
-.yugioh img{
+/* .yugioh img{
     height: 30vh;
     margin: 0 auto;
     border-radius: 50%;
@@ -34,7 +36,7 @@
     margin: 0 auto;
     border-radius: 50%;
     border: solid 3px rgb(202,209,216);
-}
+} */
 
 .information {
     width: 50%;

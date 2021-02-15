@@ -49,9 +49,17 @@ function Dnd() {
                 </div>
                 </div>
             </div>
+            <div className="wrapper">
+                <div className="card-dnd6" >
+                <div className="card__content">
+                    <i>Cogito ergo sum</i> is a Latin philosophical proposition by René Descartes usually translated into English as "I think, therefore I am". The phrase originally appeared in French as <i>je pense, donc je suis</i> in his Discourse on the Method, so as to reach a wider audience than Latin would have allowed. It appeared in Latin in his later Principles of Philosophy.
+                </div>
+                </div>
+            </div>
         </div>
         <div className="dnd-info">
-            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet purus gravida quis blandit turpis. Varius morbi enim nunc faucibus a pellentesque sit. Nec sagittis aliquam malesuada bibendum. Elit eget gravida cum sociis natoque penatibus.</p>
+            <p>Not immediately seeing what you were looking for? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
         </div>
         <Footer />
         </>

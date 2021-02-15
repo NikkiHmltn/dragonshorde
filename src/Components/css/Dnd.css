@@ -13,6 +13,12 @@
     width: 70%;
 }
 
+.dnd-info {
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+
 .wrapper {
 	position: relative;
 	z-index: 1;
@@ -71,7 +77,16 @@
 	cursor: pointer;
     margin: 8% auto;
 }
-
+.card-dnd6 {
+	width: 350px;
+	height: 480px;
+	background-color: #292B33;
+	background-image: url('../imgs/DND_COS.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
 .card__content {
 	position: relative;
 	padding: 110px 35px 0 35px;
