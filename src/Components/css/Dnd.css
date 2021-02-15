@@ -1,0 +1,100 @@
+#dnd-header {
+    margin: 5% auto;
+    width: 80%;
+}
+
+.dnd-holder {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5% auto;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.wrapper {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+
+.card-dnd1 {
+	width: 350px;
+	height: 458px;
+	background-color: #292B33;
+	background-image: url('../imgs/DND_PHCover.png');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+
+.card-dnd2 {
+	width: 350px;
+	height: 458px;
+	background-color: #292B33;
+	background-image: url('../imgs/DND_MMCover.png');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+.card-dnd3 {
+	width: 350px;
+	height: 458px;
+	background-color: #292B33;
+	background-image: url('../imgs/DND_DMGCover.png');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+.card-dnd4 {
+	width: 350px;
+	height: 480px;
+	background-color: #292B33;
+	background-image: url('../imgs/XanatharAlt_ProductShot.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+.card-dnd5 {
+	width: 350px;
+	height: 480px;
+	background-color: #292B33;
+	background-image: url('../imgs/dnd_press_tasha_altcover.png');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+
+.card__content {
+	position: relative;
+	padding: 110px 35px 0 35px;
+	color: white;
+    background-color: rgba(0,0,0, 0.6);
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	opacity: 0;
+	z-index: 5;
+    height: 100%;
+	transition: opacity .9s;
+}
+
+.card__overlay {
+	position: absolute;
+	border-radius: 50%;
+	background-color: #000;
+	z-index: 2;
+	transition: all .9s;
+}
+
+.card__content:hover {
+    opacity: 1;
+}
+

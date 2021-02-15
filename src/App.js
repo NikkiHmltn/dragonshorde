@@ -4,6 +4,7 @@ import GamePacks from './Components/GamePacks'
 import Events from './Components/Events'
 import Contact from './Components/Contact'
 import BoardGames from './Components/BoardGames'
+import Dnd from './Components/Dnd'
 import {Route} from 'react-router-dom'
 
 
@@ -17,6 +18,7 @@ function App() {
       <Route path="/events" component={Events} />
       <Route path="/contact" component={Contact} />
       <Route path="/boardgames" component={BoardGames} />
+      <Route path="/dnd" component={Dnd} />
     </div>
     </>
   );

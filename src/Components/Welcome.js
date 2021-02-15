@@ -63,17 +63,16 @@ export default class Welcome extends Component {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Dignissim convallis aenean et tortor at. Amet consectetur adipiscing elit duis. Elit pellentesque habitant morbi tristique senectus et.</p>
             </div>
             <div className="calendar">
-            <Iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23A79B8E&amp;ctz=America%2FLos_Angeles&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;title=Events" style={{border: "solid 1px #777"}} width="800" height="600" frameborder="0" scrolling="no"/>
-            </div>
+            <iframe src="https://calendar.google.com/calendar/embed?src=dragonshordeslt%40gmail.com&ctz=America%2FLos_Angeles" style={{border: "0"}} width="800" height="600" frameborder="0" scrolling="no"></iframe>            </div>
 
             <div className="conduct">
                 <h2>Code of Conduct</h2>
                 <ul>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/1-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/2-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/3-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/4-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/5-key.png"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/1-key.png"/>Everyone should be treated with the same respect that they expect, including respect for spectators, customers, staff, and property. </li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/2-key.png"/>Clean up after yourself! This includes any games you may be playing, trash you may have produced, drinks, etc.</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/3-key.png"/>Win or lose, be a good player and a good person. Play honest games and everyone has fun! Disrespectful behavior will not be tolerated</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/4-key.png"/>Please don't block doorways or walkways. Be aware and respectful to your surroundings.</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/5-key.png"/>Theft, bullying, illegal drug use, and unsportsman-like conduct will not be tolerated in the store.</li>
                 </ul>
                 <h3>Store Policy</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices dui sapien eget mi proin sed libero. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Arcu vitae elementum curabitur vitae nunc sed velit. Maecenas accumsan lacus vel facilisis volutpat.</p>
