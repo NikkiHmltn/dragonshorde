@@ -21,6 +21,11 @@ export default class Welcome extends Component {
             <NavBar />
             <div className="carousel-container fade-in">
                 <div id="carousel-welcome" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                <ol className="carousel-indicators">
+                    <li data-target="#carousel-welcome" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-welcome" data-slide-to="1"></li>
+                    <li data-target="#carousel-welcome" data-slide-to="2"></li>
+                </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                     <img src={magiccarousel} className="d-block w-100" alt="..." />
@@ -73,8 +78,16 @@ export default class Welcome extends Component {
                     <li><img src="https://img.icons8.com/ios-glyphs/30/000000/4-key.png"/>Please don't block doorways or walkways. Be aware and respectful to your surroundings.</li>
                     <li><img src="https://img.icons8.com/ios-glyphs/30/000000/5-key.png"/>Theft, bullying, illegal drug use, and unsportsman-like conduct will not be tolerated in the store.</li>
                 </ul>
-                <h3>Store Policy</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices dui sapien eget mi proin sed libero. Interdum velit laoreet id donec ultrices tincidunt arcu non sodales. Arcu vitae elementum curabitur vitae nunc sed velit. Maecenas accumsan lacus vel facilisis volutpat.</p>
+                <div className="page-end">
+                    
+                </div>
+                <br></br>
+                <div className="store-policy">
+                    <h3>Store Policy</h3>
+                    <p>All sales and trades are final. Trades between players is generally permitted (cards only, no cash trades), but employees reserve all rights to disallow player to player trade for any reason.</p>
+                </div>
+               
+                
             </div>
             <Footer />
             </>

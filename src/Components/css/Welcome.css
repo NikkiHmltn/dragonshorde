@@ -8,26 +8,19 @@ body {
     height: 200px;
     width: 75%;
     margin: 2% auto;
+   
 }
 
 .carousel-caption {
     margin: 0 auto;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-caption:hover {
-    opacity: 1;
-    background-color: rgba(14, 17, 22, 0.6);
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    width: 50%;
+    height: 20%;
 }
 
 
 .carousel-inner > .carousel-item > img {
     height: 525px;
+    border-radius: 2%;
 }
 
 .tourney-info {
@@ -65,7 +58,52 @@ body {
     filter: invert(100%);
 }
 
-.conduct > h2, .conduct > h3 {
+.conduct > h2{
     text-align: center;
     font-family: "Magic";
+}
+
+.store-policy {
+    margin: 0 auto;
+    margin-bottom: 7%;
+    width: 60%;
+    text-align: center;
+    border-color: rgb(49,54,60);
+    border: solid 1px;
+    border-radius: 2%;
+    padding: 5%;
+}
+
+.store-policy > h3 {
+    font-family: "Magic";
+}
+
+.page-end {
+    clear: both;
+    width: auto;
+    height: 50px;
+    background: url('../imgs/DnD_Ampersand_4c_8_RGB.png') center center no-repeat;
+    background-size: auto 50px !important;
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.page-end:before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    right: 56%;
+    left: 0;
+    bottom: 50%;
+    border-bottom: 1px solid white;
+}
+
+.page-end:after{
+    content: "";
+    left: 56%;
+    right: 0;
+    position: absolute;
+    height: 1px;
+    bottom: 50%;
+    border-bottom: 1px solid white;
 }
