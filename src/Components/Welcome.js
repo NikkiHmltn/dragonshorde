@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom'
 import ShopLinks from './ShopLinks'
 import './css/Welcome.css'
 import magiccarousel from './imgs/khm_key_1080p_en.jpg'
-import pokecarousel from './imgs/vividvoltage.png'
-import boardgame from './imgs/BMM3_Press.png'
+import dndcarousel from './imgs/dnd_cosr_productimg2.png'
+import boardgame from './imgs/dndsetup.jpg'
 
 
 export default class Welcome extends Component {
@@ -34,9 +34,9 @@ export default class Welcome extends Component {
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src={pokecarousel} className="d-block w-100" alt="..." />
+                    <img src={dndcarousel} className="d-block w-100" alt="..." />
                     <div className="carousel-caption d-none d-md-block">
-                        <button className="btn btn-danger "><Link to="/collections">View Collection</Link></button>
+                    <button className="btn btn-danger "><Link to="/dnd"> View D&D Books</Link></button>
                     </div>
                     </div>
                     <div className="carousel-item">
