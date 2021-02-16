@@ -1,9 +1,10 @@
 .container-contact {
     height: 60%;
     width: 40%;
-    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 00px 80px 0 rgba(226, 24, 24, 0.3);
     border-radius: 5%;
     margin: 6% auto;
+    margin-bottom: 10%;
     padding: 5% 10% 5% 10%;
     font-family: "Magic";
 }
@@ -15,4 +16,5 @@
 
 button {
     margin: 5%;
+    box-shadow: 0 0px 20px 0 rgba(226, 24, 24, 0.6);
 }
