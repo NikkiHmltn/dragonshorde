@@ -10,7 +10,7 @@ function Dnd() {
         <>
         <NavBar />
         <div id="dnd-header">
-           <img src={dndheader} width="100%"/> 
+           <img src={dndheader} alt="dnd-header" width="100%"/> 
         </div>
         
         <div className="dnd-holder">

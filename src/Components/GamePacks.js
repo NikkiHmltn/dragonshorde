@@ -12,15 +12,15 @@ function GamePacks() {
         <h2 className="col-title">What We Carry</h2>
         <div className="collection-container">
             <div className="yugioh fade-in">
-                <img src={yugioh} />
+                <img src={yugioh} alt="yugioh"/>
 
             </div>
             <div className="magic fade-in">
-                <img src={magic} />
+                <img src={magic} alt="magic the gathering"/>
                
             </div>
             <div className="pokemon fade-in">
-                <img src={poke}/>
+                <img src={poke} alt="pokemon"/>
               
             </div>
         </div>

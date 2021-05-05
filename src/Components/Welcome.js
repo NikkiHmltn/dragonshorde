@@ -11,9 +11,6 @@ import boardgame from './imgs/dndsetup.jpg'
 
 
 export default class Welcome extends Component {
-    constructor() {
-        super()
-    }
     
     render() {
         return(
@@ -72,11 +69,11 @@ export default class Welcome extends Component {
             <div className="conduct">
                 <h2>Code of Conduct</h2>
                 <ul>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/1-key.png"/>Everyone should be treated with the same respect that they expect, including respect for spectators, customers, staff, and property. </li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/2-key.png"/>Clean up after yourself! This includes any games you may be playing, trash you may have produced, drinks, etc.</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/3-key.png"/>Win or lose, be a good player and a good person. Play honest games and everyone has fun! Disrespectful behavior will not be tolerated</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/4-key.png"/>Please don't block doorways or walkways. Be aware and respectful to your surroundings.</li>
-                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/5-key.png"/>Theft, bullying, illegal drug use, and unsportsman-like conduct will not be tolerated in the store.</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/1-key.png" alt="..."/>Everyone should be treated with the same respect that they expect, including respect for spectators, customers, staff, and property. </li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/2-key.png" alt="..."/>Clean up after yourself! This includes any games you may be playing, trash you may have produced, drinks, etc.</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/3-key.png" alt="..."/>Win or lose, be a good player and a good person. Play honest games and everyone has fun! Disrespectful behavior will not be tolerated</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/4-key.png" alt="..."/>Please don't block doorways or walkways. Be aware and respectful to your surroundings.</li>
+                    <li><img src="https://img.icons8.com/ios-glyphs/30/000000/5-key.png" alt="..."/>Theft, bullying, illegal drug use, and unsportsman-like conduct will not be tolerated in the store.</li>
                 </ul>
                 <div className="page-end">
                     

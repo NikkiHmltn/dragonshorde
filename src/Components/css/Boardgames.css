@@ -3,23 +3,20 @@
     margin: 0 auto;
 }
 
-.title-img {
+.boardgame-banner {
     position: relative;
-    background-image: url('../imgs/boardgames.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0%;
-    width: 100%;
-   height: 100vh;
+    text-align: center;
+    color: white;
 }
 
-#cover-title{
-    filter: drop-shadow(20px 20px 10px #000);
-    font-size: 320px;
-    font-family: Helvetica, sans-serif;
-    font-weight: 550;
-    letter-spacing: 0.5rem;
-    text-align: center;
+.boardgame-title {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    text-shadow: 5px 5px #1d1616;
+    font-family: "Magic";
 }
 
 .boardgames p {
@@ -28,47 +25,84 @@
     margin: 5% auto;
 }
 
-.parallax {  
-  background-image: url('../imgs/catan.jpg');
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.card-catan {
+	width: 350px;
+	height: 350px;
+	background-color: #292B33;
+	background-image: url('../imgs/catangame.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
 }
 
-.parallax-inner {
-    font-family: "Magic";
-    letter-spacing: 0.3em;
-    padding-top: 20%;
-    padding-bottom: 30%;
-    text-align: center;
-    font-size: 500%;
-    color: rgb(177, 1, 1);
-    filter: drop-shadow(20px 20px 10px #000);
+
+.card-munchkin {
+	width: 350px;
+	height: 350px;
+	background-color: #292B33;
+	background-image: url('../imgs/munchkin.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
 }
 
-.boardgame-items {
-    width: 80%;
-    margin: 5% auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgb(14, 17, 22);
-    justify-content: space-evenly;
+.card-betrayl {
+	width: 350px;
+	height: 350px;
+	background-color: #292B33;
+	background-image: url('../imgs/betrayl.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+.card-horizon {
+	width: 350px;
+	height: 350px;
+	background-color: #292B33;
+	background-image: url('../imgs/horizon.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+.card-waterdeep {
+	width: 350px;
+	height: 350px;
+	background-color: #292B33;
+	background-image: url('../imgs/lordsofwaterdeep.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
+}
+.card-allies {
+	width: 350px;
+	height: 350px;
+	background-color: #292B33;
+	background-image: url('../imgs/axisallies.jpg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	cursor: pointer;
+    margin: 8% auto;
 }
 
-.card {
-    background-color: rgb(14, 17, 22);
-    border-color: rgb(49,54,60);
-    margin: 3%;
+.card__content-board {
+	position: relative;
+	padding: 20% 0 50%;
+	color: white;
+    background-color: rgba(0,0,0, 0.6);
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	opacity: 0;
+	z-index: 5;
+    height: 100%;
+	transition: opacity .9s;
 }
 
-.card-suggestion {
-    font-size: 12px;
-    padding-bottom: 5%;
-}
-
-.card-text {
-    font-size: 14px;
+.card__content-board:hover {
+    opacity: 1;
 }

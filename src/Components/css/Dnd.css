@@ -89,7 +89,7 @@
 }
 .card__content {
 	position: relative;
-	padding: 110px 35px 0 35px;
+	padding: 50% 0 50%;
 	color: white;
     background-color: rgba(0,0,0, 0.6);
 	font-family: Helvetica, sans-serif;

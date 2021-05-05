@@ -13,12 +13,12 @@ function ShopLinks() {
                     <h2>BOARDGAMES</h2>
                 </div>
                 
-                <img src={magicbox} height="200" width="200" id="cards"/>  
+                <img src={magicbox} alt="magicbox" height="200" width="200" id="cards"/>  
         
 
-                <img src={supplies} height="200" width="200" id="supplies"/>    
+                <img src={supplies} alt="card supplies" height="200" width="200" id="supplies"/>    
         
-                <img src={boardgame} height="200" width="200" id="games"/>    
+                <img src={boardgame}alt="boardgames" height="200" width="200" id="games"/>    
                 
             </div>
         </div>
