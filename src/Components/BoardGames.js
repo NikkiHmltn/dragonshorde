@@ -10,17 +10,19 @@ function BoardGames() {
         <NavBar />
         
         <div className="boardgame-banner">
-            <img src={Catan} alt="..." width="100%" height="400px"/>
+            <img src={Catan} alt="..." class="boardgame-img"/>
             <div className="boardgame-title">Boardgames</div>
         </div>
         
         <div className="boardgames">
-            <p>Sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. At tempor commodo ullamcorper a lacus vestibulum sed. Dui faucibus in ornare quam viverra orci sagittis eu. Tristique nulla aliquet enim tortor at auctor. Ipsum consequat nisl vel pretium lectus quam id leo. Turpis cursus in hac habitasse platea. Elementum nisi quis eleifend quam adipiscing vitae proin.</p> 
+            <p>The horde doesn't have just cards, it has boardgames! We have a ton of popular and niche boardgames for purchase or for testing. We welcome people to come and try out a game with their friends. Rent the game, play it, and if you enjoy it, purchase it! Below are just a few of the games we tend to have in stock, but we can always order you a boardgame if you have a certain one in mind. Come check them out.</p> 
+            <p>Not immediately seeing what you were looking for? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
+
             
         </div>
        
         <div className="dnd-holder">
-            <div className="wrapper">
+            <div className="wrapper-card">
                 <div className="card-catan" >
                     <div className="card__content-board">
                         <div>
@@ -30,7 +32,7 @@ function BoardGames() {
                     </div>
                 </div>
             </div>
-            <div className="wrapper">
+            <div className="wrapper-card">
                 <div className="card-munchkin" >
                     <div className="card__content-board">
                         <div>
@@ -40,7 +42,7 @@ function BoardGames() {
                     </div>
                 </div>
             </div>
-            <div className="wrapper">
+            <div className="wrapper-card">
                 <div className="card-betrayl" >
                     <div className="card__content-board">
                         <div>
@@ -50,7 +52,7 @@ function BoardGames() {
                     </div>
                 </div>
             </div>
-            <div className="wrapper">
+            <div className="wrapper-card">
                 <div className="card-waterdeep" >
                     <div className="card__content-board">
                         <div>
@@ -60,7 +62,7 @@ function BoardGames() {
                     </div>
                 </div>
             </div>
-            <div className="wrapper">
+            <div className="wrapper-card">
                 <div className="card-allies" >
                     <div className="card__content-board" style={{fontSize: "14px"}}>
                         <div>
@@ -71,7 +73,7 @@ function BoardGames() {
                     </div>
                 </div>
             </div>
-            <div className="wrapper">
+            <div className="wrapper-card">
                 <div className="card-horizon" >
                     <div className="card__content-board">
                         <div>
@@ -81,9 +83,6 @@ function BoardGames() {
                     </div>
                 </div>
             </div>
-            
-           
-            <p>Not immediately seeing what you were looking for? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
         </div>
         <Footer />
         </>

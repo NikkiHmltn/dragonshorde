@@ -57,7 +57,7 @@ export default class Welcome extends Component {
             <ShopLinks />
             <div className="tourney-info">
                 <h3>Interested in Tournaments?</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet purus gravida quis blandit turpis. Varius morbi enim nunc faucibus a pellentesque sit. Nec sagittis aliquam malesuada bibendum. Elit eget gravida cum sociis natoque penatibus.</p>
+                <p>So are we! The Dragon's Horde is happy to announce we are going to run official and mock tournaments for Magic the Gathering. Please refer to our calendar below for dates on tournment events, or feel free to give us a call for more information. </p>
                 <br></br>
                 <h4>COVID-19 Information</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Dignissim convallis aenean et tortor at. Amet consectetur adipiscing elit duis. Elit pellentesque habitant morbi tristique senectus et.</p>

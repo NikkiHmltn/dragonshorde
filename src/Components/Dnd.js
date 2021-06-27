@@ -12,7 +12,9 @@ function Dnd() {
         <div id="dnd-header">
            <img src={dndheader} alt="dnd-header" width="100%"/> 
         </div>
-        
+        <div className="dnd-info">
+            <p>We carry a great selection of Dungeons & Dragons modules, guides, and everything else. Both regular and alternative art covers are available for purchase. We have a wider selection available in store, and we can always special order for you if you can't find the product in store. Just <a href="tel:+1">call us</a> or <a href="/contact">send us a message</a>!</p>
+        </div>
         <div className="dnd-holder">
             <div className="wrapper">
                 <div className="card-dnd1" >
@@ -58,10 +60,6 @@ function Dnd() {
                 </div>
                 </div>
             </div>
-        </div>
-        <div className="dnd-info">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet purus gravida quis blandit turpis. Varius morbi enim nunc faucibus a pellentesque sit. Nec sagittis aliquam malesuada bibendum. Elit eget gravida cum sociis natoque penatibus.</p>
-            <p>Not immediately seeing what you were looking for? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
         </div>
         <Footer />
         </>
