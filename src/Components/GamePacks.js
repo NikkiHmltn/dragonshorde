@@ -27,7 +27,7 @@ function GamePacks() {
         <div className="information">
             <p>At The Dragon's Horse, we love cards. We love them so much, we decided to bring them to the Lake Tahoe area for everyone else to enjoy too! Yugioh, Magic the Gathering, and Pokemon are our big sellers. Come check out all of our boosters, tins, singles, and sleeves. We want to make sure you have everything you need to enjoy your card colelction or playing with friends (or with us!), so we have also stocked up on deck supplies to keep your cards safe from life. </p> 
             <br></br>
-            <p>Not interesting in buying and want to sell or trade? Sure, we can do that too! It doesn't have to be the big three listed above for us to consider buying your cards off you. Please refer to the store policy and keep in mind that we're here to work with you! Any and all trades and purchase of your cards will be left up to the employees. </p>
+            <p>Not interested in buying and want to sell or trade? Sure, we can do that too! It doesn't have to be the big three listed above for us to consider buying your cards off you. Please refer to the store policy and keep in mind that we're here to work with you! Any and all trades and purchase of your cards will be left up to the employees. </p>
             <br></br>
             <p>Have questions or just want to talk? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
         </div>

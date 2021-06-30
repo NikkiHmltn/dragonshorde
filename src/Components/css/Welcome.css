@@ -5,7 +5,7 @@ body {
 }
 
 .carousel-container {
-    height: 200px;
+    height: 2%;
     width: 75%;
     margin: 2% auto;
    
@@ -14,12 +14,12 @@ body {
 .carousel-caption {
     margin: 0 auto;
     width: 50%;
-    height: 20%;
+    height: 25%;
 }
 
 
 .carousel-inner > .carousel-item > img {
-    height: 525px;
+    height: 20%;
     border-radius: 2%;
 }
 
@@ -106,4 +106,10 @@ body {
     height: 1px;
     bottom: 50%;
     border-bottom: 1px solid white;
+}
+
+@media (max-width:450px) {
+    .conduct {
+        width: 100%;
+    }
 }

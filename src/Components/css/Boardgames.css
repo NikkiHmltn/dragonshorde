@@ -117,3 +117,12 @@
 .card__content-board:hover {
     opacity: 1;
 }
+
+@media (max-width:750px) {
+	.boardgame-title {
+		font-size: 50px;
+	}
+	.boardgame-img {
+		height: 10%;
+	}
+}

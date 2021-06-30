@@ -41,3 +41,9 @@
       transform: translateX(0);
     }
   }
+
+@media (max-width:450px) {
+    .nav-items {
+        font-size: 10px;
+    }
+}
