@@ -20,7 +20,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 200px;
+    font-size: 450%;
     text-shadow: 5px 5px #1d1616;
     font-family: "Magic";
 }
@@ -118,11 +118,17 @@
     opacity: 1;
 }
 
-@media (max-width:750px) {
-	.boardgame-title {
-		font-size: 50px;
-	}
-	.boardgame-img {
-		height: 10%;
-	}
+/* mobile media query */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+}
+
+/* tablet media query */
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+/* standard screen query */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
 }

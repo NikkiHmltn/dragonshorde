@@ -31,28 +31,17 @@
     padding: 2%;
 }
 
-@media (max-width: 800px) {
-    .links-shop > img{
-        flex-wrap: wrap;
-        width: 20vh;
-        height: 20vh;
-        margin: 3vh;
-    }
+/* mobile media query */
+@media (min-width: 320px) and (max-width: 480px) {
+    
 }
 
-@media (max-width:450px) {
-    .links-shop > img{
-        flex-wrap: wrap;
-        width: 10vh;
-        height: 10vh;
-        margin: 1vh;
-        margin-left: 3vh;
-    }
+/* tablet media query */
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
 
-    .shop-titles {
-        margin-left: 1vh;
-    }
-    .shop-titles > h2{
-        font-size: 20px;
-    }
+/* standard screen query */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
 }

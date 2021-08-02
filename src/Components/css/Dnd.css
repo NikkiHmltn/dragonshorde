@@ -113,3 +113,17 @@
     opacity: 1;
 }
 
+/* mobile media query */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+}
+
+/* tablet media query */
+@media (min-width: 481px) and (max-width: 768px) {
+    
+}
+
+/* standard screen query */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}

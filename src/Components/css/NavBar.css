@@ -4,31 +4,11 @@
 }
 
 .navbar {
-    background-color: rgb(51, 54, 58);
-    color: rgb(226, 226, 226);
-    height: 75px;
-    display: flex;
-    align-items: center;
+    font-family: "Magic";
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
-.nav-title {
-    float: left;
-    margin-left: 5%;
-    font-family: "Magic";
-}
 
-.nav-items {
-    margin-right: 10%;
-    font-family: Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.nav-items > #nav-item{
-    color: rgb(202,209,216);
-    text-decoration: none;
-    padding: 10px;
-}
 
 @keyframes slideInFromLeft {
     0% 
@@ -40,10 +20,4 @@
     {
       transform: translateX(0);
     }
-  }
-
-@media (max-width:450px) {
-    .nav-items {
-        font-size: 10px;
-    }
-}
+  } 
