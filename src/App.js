@@ -10,7 +10,6 @@ import {Route} from 'react-router-dom'
 
 function App() {
   return (
-    <>
     <div className="App">
       <Route exact path="/" component={Intro} />
       <Route path="/welcome" component={Welcome} />
@@ -20,7 +19,6 @@ function App() {
       <Route path="/boardgames" component={BoardGames} />
       <Route path="/dnd" component={Dnd} />
     </div>
-    </>
   );
 }
 

@@ -28,7 +28,7 @@
 
 video {
     object-fit: cover;
-
+    width: 100%;
 }
 
 .intro-name {
@@ -156,7 +156,40 @@ a:hover {
 .intro-name span:nth-child(17) {
     animation-delay: 4.25s;
 }
-
+.intro-name span:nth-child(18) {
+    animation-delay: 4.4s;
+}
+.intro-name span:nth-child(19) {
+    animation-delay: 4.5s;
+}
 .intro-enter {
     animation-delay: 5s;
+}
+
+/* mobile media query */
+@media (min-width: 320px) and (max-width: 480px) {
+    video {
+        display: none;
+    }
+    .intro-name {
+        font-size: 50px;
+    }
+}
+
+/* tablet media query */
+@media (min-width: 481px) and (max-width: 768px) {
+    video {
+        display: none;
+    }
+    .intro-name {
+        font-size: 50px;
+    }
+}
+
+/* standard screen query */
+@media (min-width: 769px) and (max-width: 1024px) {
+    video {
+        width: 100%;
+        margin-top: 30%;
+    }
 }

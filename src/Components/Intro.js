@@ -12,6 +12,7 @@ function Intro() {
                 <span>H</span>
                 <span>E</span>
                 <span> </span>
+                <br></br>
                 <span className="dragon">D</span>
                 <span className="dragon">R</span>
                 <span className="dragon">A</span>
@@ -19,6 +20,7 @@ function Intro() {
                 <span className="dragon">O</span>
                 <span className="dragon">N</span>
                 <span className="dragon">'S</span>
+                <br></br>
                 <span> </span>
                 <span>H</span>
                 <span>O</span>
