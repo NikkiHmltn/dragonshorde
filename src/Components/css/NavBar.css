@@ -21,3 +21,10 @@
       transform: translateX(0);
     }
   } 
+
+  /* mobile media query */
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-brand  {
+    font-size: 100% !important;
+  }
+}

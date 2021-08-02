@@ -1,5 +1,5 @@
 .footer {
-    height: 80px;
+    height: 5%;
     background-color: rgb(51, 54, 58);
     color: white;
     text-align: center;
@@ -20,6 +20,9 @@
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
+    .foot-note {
+        font-size: 12px;
+    }
     
 }
 

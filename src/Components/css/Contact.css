@@ -21,15 +21,36 @@ button {
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .input-forms {
+        padding: 2%;
+        width: 100%;
+    }
+    .container-contact {
+        width: 100%;
+        
+    }
 }
 
 /* tablet media query */
 @media (min-width: 481px) and (max-width: 768px) {
-    
+    .input-forms {
+        padding: 2%;
+        width: 100%;
+    }
+    .container-contact {
+        width: 100%;
+        
+    }
 }
 
 /* standard screen query */
 @media (min-width: 769px) and (max-width: 1024px) {
-    
+    .input-forms {
+        padding: 2%;
+        width: 100%;
+    }
+    .container-contact {
+        width: 100%;
+        
+    }
 }

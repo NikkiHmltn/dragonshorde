@@ -115,15 +115,98 @@
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .dnd-info {
+		min-width: 90%;
+	}
+	#dnd-header > img{
+		margin: 5% auto;
+		width: 100%;
+		height: 100%;
+	}
+	.card-dnd1 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px; 
+	}
+	.card-dnd2 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px;
+	}
+	.card-dnd3 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px;
+	}
+	.card-dnd4 {
+		width: 200px;
+		height: 280px;
+		font-size: 13px;
+
+	}
+	.card-dnd5 {
+		width: 200px;
+		height: 280px;
+		font-size: 13px;
+	}
+	.card-dnd6 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px;
+	}
+	.card__content {
+		padding: 10% 0 10%;
+		overflow: auto;
+	}
 }
 
 /* tablet media query */
 @media (min-width: 481px) and (max-width: 768px) {
-    
-}
+	
+    .dnd-info {
+		min-width: 90%;
+	}
+	.dnd-header {
+		margin: 0%;
+	}
+	#dnd-header > img{
+		margin: 1% auto;
+		width: 100%;
+		height: 100%;
+	}
+	.card-dnd1 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px; 
+	}
+	.card-dnd2 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px;
+	}
+	.card-dnd3 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px;
+	}
+	.card-dnd4 {
+		width: 200px;
+		height: 280px;
+		font-size: 13px;
 
-/* standard screen query */
-@media (min-width: 769px) and (max-width: 1024px) {
-    
+	}
+	.card-dnd5 {
+		width: 200px;
+		height: 280px;
+		font-size: 13px;
+	}
+	.card-dnd6 {
+		width: 200px;
+		height: 260px;
+		font-size: 13px;
+	}
+	.card__content {
+		padding: 10% 0 10%;
+		overflow: auto;
+	}
 }

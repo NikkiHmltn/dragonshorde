@@ -46,7 +46,7 @@ function Dnd() {
             </div>
             <div className="wrapper">
                 <div className="card-dnd5" >
-                <div className="card__content" style={{fontSize: "13px"}}>
+                <div className="card__content">
                 The wizard Tasha, whose great works include the spell Tasha’s hideous laughter, has gathered bits and bobs of precious lore during her illustrious career as an adventurer.Full of expanded content for players and Dungeon Masters alike, this book is a great addition to the Player's Handbook and the Dungeon Master’s Guide. Baked in you'll find more rule options for all the character classes in the Player's Handbook, including more subclass options. Thrown in for good measure is the artificer class, a master of magical invention. And this witch's brew wouldn't be complete without a dash of added artifacts, spellbook options, spells for both player characters and monsters, magical tattoos, group patrons, and other tasty goodies.
 
 
@@ -55,7 +55,7 @@ function Dnd() {
             </div>
             <div className="wrapper">
                 <div className="card-dnd6" >
-                <div className="card__content" style={{fontSize: "13px"}}>
+                <div className="card__content" >
                 Under raging storm clouds, the vampire Count Strahd von Zarovich stands silhouetted against the ancient walls of Castle Ravenloft. Rumbling thunder pounds the castle spires. The wind’s howling increases as he turns his gaze down toward the village of Barovia. Far below, yet not beyond his keen eyesight, a party of adventurers has just entered his domain. Strahd’s face forms the barest hint of a smile as his dark plan unfolds. He knew they were coming, and he knows why they came—all according to his plan. A lightning flash rips through the darkness, but Strahd is gone. Only the howling of the wind fills the midnight air. The master of Castle Ravenloft is having guests for dinner. And you are invited.
                 </div>
                 </div>
