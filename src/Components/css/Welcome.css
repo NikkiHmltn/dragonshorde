@@ -119,14 +119,6 @@ body {
         left: 50%;
         width: 80%;
     }
-    .responsive-calendar {
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 30px;
-        height: 0;
-        overflow: auto;
-        width: 98%;
-    }
     .conduct {
         width: 100%;
     }
