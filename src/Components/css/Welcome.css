@@ -110,8 +110,11 @@ body {
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .carousel-container {
+        display: none;
+    }
 }
+
 
 /* tablet media query */
 @media (min-width: 481px) and (max-width: 768px) {

@@ -33,15 +33,137 @@
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
+    .shop-titles {
+        flex-wrap: wrap;
+        border-bottom: none;
+    }
+    .shop-titles > a > h2{
+        font-size: 20px;
+        margin: 6vh;
+        color: rgb(202,209,216) !important;
+        border-bottom: solid 1px rgb(202,209,216);;
+
+    }
+    .links-shop {
+        display: flex;
+        margin-left: -25%;
+        
+    }
+    .shop-items {
+        margin: 0% auto;
+        margin-bottom: 1%;
+        justify-content: center;
+    }
+
+    .links-images > a > img{
+        display: none;
+    }
+    
     
 }
 
 /* tablet media query */
 @media (min-width: 481px) and (max-width: 768px) {
+    .shop-titles {
+        flex-wrap: nowrap;
+        border-bottom: none;
+        margin-left: 25%;
+    }
+    .shop-titles > a > h2{
+        font-size: 25px;
+        margin: 2vh;
+        color: rgb(202,209,216) !important;
+        border-bottom: solid 1px rgb(202,209,216);;
+
+    }
+    .links-shop {
+        margin-left: -25%;
+        
+    }
+    .shop-items {
+        margin: 0% auto;
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    .links-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-images > a> img {
+        height: 10vh;
+        width: 20vh;
+       padding-left: 50%;
+    }
     
 }
 
 /* standard screen query */
 @media (min-width: 769px) and (max-width: 1024px) {
-    
+    .shop-titles {
+        flex-wrap: nowrap;
+        border-bottom: none;
+        margin-left: 25%;
+    }
+    .shop-titles > a > h2{
+        font-size: 25px;
+        margin: 7vh;
+        margin-left: -25%;
+        color: rgb(202,209,216) !important;
+    }
+    .links-shop {
+        margin-left: -10%;
+        
+    }
+    .shop-items {
+        margin: 0% auto;
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    .links-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-images > a> img {
+        height: 25vh;
+        width: 30vh;
+       padding-left: 18%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .shop-titles {
+        flex-wrap: nowrap;
+        border-bottom: none;
+        margin-left: 25%;
+    }
+    .shop-titles > a > h2{
+        font-size: 25px;
+        margin: 7vh;
+        margin-left: -25%;
+        color: rgb(202,209,216) !important;
+    }
+    .links-shop {
+        margin-left: -10%;
+        
+    }
+    .shop-items {
+        margin: 0% auto;
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    .links-images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .links-images > a> img {
+        height: 25vh;
+        width: 30vh;
+       padding-left: 18%;
+    }
 }

@@ -17,27 +17,6 @@
     width: 50%;
 }
 
-/* .yugioh img{
-    height: 30vh;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: solid 3px rgb(202,209,216);
-}
-
-.magic img {
-    height: 30vh;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: solid 3px rgb(202,209,216);
-}
-
-.pokemon img {
-    height: 30vh;
-    margin: 0 auto;
-    border-radius: 50%;
-    border: solid 3px rgb(202,209,216);
-} */
-
 .information {
     width: 50%;
     margin: 5% auto;
@@ -46,6 +25,10 @@
 
 .fade-in {
     animation: fade ease 3s;
+}
+
+.store-policy {
+    width: 30%;
 }
 
 @keyframes fade {
@@ -61,15 +44,81 @@
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .collection-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .yugioh > img{
+        height: 150px;
+    }
+    .magic > img{
+        height: 150px;
+    }
+    .pokemon > img{
+        height: 150px;
+    }
+    .col-title {
+        width: 90%;
+    }
+    .information {
+        width: 80%;
+        font-size: 15px;
+    }
+    .store-policy {
+        width: 90%;
+    }
 }
 
 /* tablet media query */
 @media (min-width: 481px) and (max-width: 768px) {
-    
+    .collection-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .yugioh > img{
+        height: 150px;
+    }
+    .magic > img{
+        height: 150px;
+    }
+    .pokemon > img{
+        height: 150px;
+    }
+    .col-title {
+        width: 90%;
+    }
+    .information {
+        width: 80%;
+        font-size: 15px;
+    }
+    .store-policy {
+        width: 80%;
+    }
 }
 
 /* standard screen query */
 @media (min-width: 769px) and (max-width: 1024px) {
-    
+    .collection-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .yugioh > img{
+        height: 250px;
+    }
+    .magic > img{
+        height: 250px;
+    }
+    .pokemon > img{
+        height: 250px;
+    }
+    .col-title {
+        width: 90%;
+    }
+    .information {
+        width: 80%;
+        font-size: 16px;
+    }
+    .store-policy {
+        width: 60%;
+    }
 }
