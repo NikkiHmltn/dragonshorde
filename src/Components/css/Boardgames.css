@@ -120,12 +120,86 @@
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {
-    
+    .boardgames p {
+		font-size: 15px;
+		width: 80%;
+		margin: 20% auto;
+	}
+	.boardgame-img {
+		height: 20%;
+	}
+	.boardgame-title {
+		font-size: 400%;
+	}
+	.wrapper-card {
+		height: 250px;
+		width: 250px;
+	}
+	.card-catan {
+		height: 250px;
+		width: 230px;
+		font-size: 13px;
+	}
+	.card-munchkin {
+		height: 250px;
+		width: 230px;
+		font-size: 13px;
+	}
+	.card-betrayl {
+		height: 250px;
+		width: 220px;
+	}
+	.card-waterdeep {
+		height: 250px;
+		width: 220px;
+	}
+	.card-horizon {
+		height: 270px;
+		width: 230px;
+	}
+	.card-allies {
+		height: 340px;
+		width: 220px;
+	}
+	.card__content-board {
+		overflow: auto;
+	}
+	
+	
 }
 
 /* tablet media query */
 @media (min-width: 481px) and (max-width: 768px) {
-    
+    .boardgames p {
+		font-size: 15px;
+		width: 90%;
+		margin: 10% auto;
+	}
+	.card-catan {
+		width: 90%;
+		font-size: 13px;
+	}
+	.card-munchkin {
+		width: 90%;
+		font-size: 13px;
+	}
+	.card-betrayl {
+		width: 90%;
+		font-size: 13px;
+	}
+	.card-waterdeep {
+		width: 90%;
+		font-size: 13px;
+	}
+	.card-allies {
+		width: 90%;
+		font-size: 13px;
+	}
+	.card-horizon {
+		width: 90%;
+		font-size: 13px;
+	}
+
 }
 
 /* standard screen query */
