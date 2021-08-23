@@ -22,7 +22,7 @@ function NavBar() {
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/contact">CONTACT US</NavLink>
                         </div>
                     </div>
-                    <NavLink className="navbar-brand mr-3" id="nav-item title-nav" exact to="/welcome">THE DRAGONS HORDE</NavLink>
+                    <NavLink className="navbar-brand mr-3" id="nav-item title-nav" exact to="/welcome">THE DRAGONS HOARD</NavLink>
                 </div>    
             </nav>
         </>

@@ -24,9 +24,9 @@ function Intro() {
                 <span> </span>
                 <span>H</span>
                 <span>O</span>
+                <span>A</span>
                 <span>R</span>
                 <span>D</span>
-                <span>E</span>
                 <br></br>
                 <p className="intro-enter"><a href="/welcome">Enter</a></p>
             </h1>

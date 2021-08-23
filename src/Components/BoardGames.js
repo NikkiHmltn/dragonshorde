@@ -15,7 +15,7 @@ function BoardGames() {
         </div>
         
         <div className="boardgames">
-            <p>The horde doesn't have just cards, it has boardgames! We have a ton of popular and niche boardgames for purchase or for testing. We welcome people to come and try out a game with their friends. Rent the game, play it, and if you enjoy it, purchase it! Below are just a few of the games we tend to have in stock, but we can always order you a boardgame if you have a certain one in mind. Come check them out.</p> 
+            <p>The hoard doesn't have just cards, it has board games! We have a ton of popular and niche board games for purchase or for testing. We welcome people to come and try out a game with their friends. Rent the game, play it, and if you enjoy it, purchase it! Below are just a few of the games we tend to have in stock, but we can always order you a board game if you have a certain one in mind. Come check them out.</p> 
             <p>Not immediately seeing what you were looking for? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
 
             
