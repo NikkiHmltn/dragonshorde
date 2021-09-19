@@ -60,7 +60,7 @@ export default class Welcome extends Component {
                 <p>So are we! The Dragon's Hoard is happy to announce we are going to run official and mock tournaments for Magic the Gathering. Please refer to our calendar below for dates on tournament events, or feel free to give us a call for more information. </p>
                 <br></br>
                 <h4>COVID-19 Information</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae. Dignissim convallis aenean et tortor at. Amet consectetur adipiscing elit duis. Elit pellentesque habitant morbi tristique senectus et.</p>
+                <p>Please check local county and/or state mandates regarding oversight and advisories about  COVID-19 in the area. Additionally, it may be helpful to contact us directly to best understand what safety precautions and requirements we may have in place.</p>
             </div>
             <div className="calendar">
             <Iframe src="https://calendar.google.com/calendar/embed?src=dragonshordeslt%40gmail.com&ctz=America%2FLos_Angeles" style={{border: "0"}} width="800" height="600" frameborder="0" scrolling="no"/>        

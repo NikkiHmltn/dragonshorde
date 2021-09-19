@@ -13,7 +13,7 @@ function Dnd() {
            <img src={dndheader} alt="dnd-header" width="100%"/> 
         </div>
         <div className="dnd-info">
-            <p>We carry a great selection of Dungeons & Dragons modules, guides, and everything else. Both regular and alternative art covers are available for purchase. We have a wider selection available in store, and we can always special order for you if you can't find the product in store. Just <a href="tel:+1">call us</a> or <a href="/contact">send us a message</a>!</p>
+            <p>We carry a great selection of Dungeons & Dragons modules, guides, and everything else. Both regular and alternative art covers are available for purchase. We have a wider selection available in store, and we can always special order for you if you can't find the product in store. Just <a href="tel:+15306002365">call us</a> or <a href="/contact">send us a message</a>!</p>
         </div>
         <div className="dnd-holder">
             <div className="wrapper">

@@ -10,13 +10,13 @@ function BoardGames() {
         <NavBar />
         
         <div className="boardgame-banner">
-            <img src={Catan} alt="..." class="boardgame-img"/>
+            <img src={Catan} alt="catan board game closeup" class="boardgame-img"/>
             <div className="boardgame-title">Boardgames</div>
         </div>
         
         <div className="boardgames">
             <p>The hoard doesn't have just cards, it has board games! We have a ton of popular and niche board games for purchase or for testing. We welcome people to come and try out a game with their friends. Rent the game, play it, and if you enjoy it, purchase it! Below are just a few of the games we tend to have in stock, but we can always order you a board game if you have a certain one in mind. Come check them out.</p> 
-            <p>Not immediately seeing what you were looking for? <a href="tel:+1">Call us</a> or <a href="/contact">send us a message</a>!</p>
+            <p>Not immediately seeing what you were looking for? <a href="tel:+15306002356">Call us</a> or <a href="/contact">send us a message</a>!</p>
 
             
         </div>

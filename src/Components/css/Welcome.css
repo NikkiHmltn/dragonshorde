@@ -40,7 +40,7 @@ body {
 }
 
 .conduct {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -145,6 +145,6 @@ body {
 /* standard screen query */
 @media (min-width: 769px) and (max-width: 1024px) {
     .conduct {
-        width: 70%;
+        width: 90%;
     }
 }
