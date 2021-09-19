@@ -31,6 +31,15 @@
     width: 30%;
 }
 
+
+.dragon-cage > img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10%;
+}
+
 @keyframes fade {
     0%
     {

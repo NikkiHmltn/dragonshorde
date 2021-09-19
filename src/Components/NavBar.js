@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom'
-
+import DragonsLogo from './imgs/Dragons-Hoard-Text-White.png'
 import './css/NavBar.css'
 
 function NavBar() {
@@ -18,10 +18,10 @@ function NavBar() {
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/collections">COLLECTIONS</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/boardgames">BOARDGAMES</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/dnd">D&D</NavLink>
-                            <NavLink className="nav-item nav-link" id="selection-nav" to="/contact">CONTACT US</NavLink>
+                            <NavLink className="nav-item nav-link" id="selection-nav" to="/contact">CONTACT</NavLink>
                         </div>
                     </div>
-                    <NavLink className="navbar-brand mr-3" id="nav-item title-nav" exact to="/welcome">THE DRAGONS HOARD</NavLink>
+                    <NavLink className="navbar-brand mr-3 dragonlogo" id="nav-item title-nav" exact to="/welcome"><img src={DragonsLogo} alt="dragons hoard logo" /></NavLink>
                 </div>    
             </nav>
         </>

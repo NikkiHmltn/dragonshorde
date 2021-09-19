@@ -3,6 +3,7 @@ import NavBar from './NavBar'
 import yugioh from './imgs/yugioh.jpeg'
 import poke from './imgs/pokemon.png'
 import magic from './imgs/magic.jpg'
+import dragon from './imgs/dragon.png'
 import './css/GamePacks.css'
 
 function GamePacks() {
@@ -30,6 +31,9 @@ function GamePacks() {
             <p>Not interested in buying and want to sell or trade? Sure, we can do that too! It doesn't have to be the big three listed above for us to consider buying your cards off you. Please refer to the store policy and keep in mind that we're here to work with you! Any and all trades and purchase of your cards will be left up to the employees. </p>
             <br></br>
             <p>Have questions or just want to talk? <a href="tel:+15306002365">Call us</a> or <a href="/contact">send us a message</a>!</p>
+        </div>
+        <div className="dragon-cage">
+            <img src={dragon} alt="red dragon"/>
         </div>
         <div className="store-policy">
                     <h3>Store Policy</h3>

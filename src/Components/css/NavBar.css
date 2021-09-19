@@ -8,7 +8,15 @@
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
+.nav-link {
+  left: 50%;
+  top: 50%;
+}
 
+.dragonlogo > img{
+  width: 20%;
+  float: right;
+}
 
 @keyframes slideInFromLeft {
     0% 
@@ -26,5 +34,22 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar-brand  {
     font-size: 100% !important;
+  }
+  .dragonlogo > img{
+    width: 40%;
+    margin-top: -20%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px)  {
+  .dragonlogo > img{
+    width: 30%;
+    margin-top: -14%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dragonlogo > img{
+    width: 50%;
   }
 }
