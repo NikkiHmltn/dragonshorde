@@ -18,6 +18,9 @@ button {
     margin: 5%;
     box-shadow: 0 0px 20px 0 rgba(226, 24, 24, 0.6);
 }
+button[disabled] {
+    cursor: not-allowed;
+  }
 
 /* mobile media query */
 @media (min-width: 320px) and (max-width: 480px) {

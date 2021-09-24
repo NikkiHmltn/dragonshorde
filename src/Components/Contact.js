@@ -1,25 +1,31 @@
+import React,{ useRef, useState } from 'react'
+import Recaptcha from 'react-google-recaptcha'
 import emailjs from 'emailjs-com'
 import Footer from './Footer'
 import Navbar from './NavBar'
 import './css/Contact.css'
 
 function Contact() {
+    const [buttonDisabled, setButtonDisabled] = useState(true)
+    const form = useRef()
+
+    const RECAPTCHA_KEY = "6LfRPn4cAAAAAAPyDiVAlhNozyMQKOhSWtNlZtMa"
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, e.target, pprocess.env.USER_ID)
+
+        emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, process.env.USER_ID)
         .then((result) => {
-            console.log(result.text)
-        }), (err) => {
-            console.log(err.text)
-        }
-        e.target.reset()
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
     } 
 
     return(
         <>
         <Navbar />
-            <form onSubmit={handleSubmit}>
+            <form ref={form} onSubmit={handleSubmit}>
                 <div className="container-contact form-group">
                     <div><h2>Contact Us</h2></div>
                     <div className="input-forms">
@@ -28,12 +34,19 @@ function Contact() {
                     </div>
                     <div className="input-forms">
                         <label htmlFor="email">Email</label>
-                        <input type="email" className="form-control" placeholder="Email" name="from_email" id="email" required/>
+                        <input type="email" className="form-control" placeholder="Email" name="reply_to" id="email" required/>
                     </div>
                     <div className="input-forms">
                         <textarea className="form-control" placeholder="Message Here" name="message" id="message" rows="5" required/>
                     </div>
-                    <button className="btn btn-danger" type="submit">Send a Message</button>
+                    <Recaptcha 
+                        // ref={recaptchaRef}
+                        sitekey={RECAPTCHA_KEY}
+                        size="nromal"
+                        id="recaptcha-google"
+                        onChange={()=>setButtonDisabled(false)}
+                    />
+                    <button className="btn btn-danger" disabled={buttonDisabled} type="submit">Send a Message</button>
                 </div>
             </form>
         <Footer />
