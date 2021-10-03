@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import Discord from './Discord'
 import Iframe from 'react-iframe'
 import {Link} from 'react-router-dom'
 import ShopLinks from './ShopLinks'
@@ -20,7 +21,7 @@ export default class Welcome extends Component {
                 <div id="carousel-welcome" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <ol className="carousel-indicators">
                     <li data-target="#carousel-welcome" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-welcome" data-slide-to="1"></li>
+                    <li data-target="#carousel-welcome" data-slide-to="1"></li>star
                     <li data-target="#carousel-welcome" data-slide-to="2"></li>
                 </ol>
                 <div className="carousel-inner">
@@ -55,6 +56,7 @@ export default class Welcome extends Component {
             </div>
             <br></br>
             <ShopLinks />
+            <Discord />
             <div className="tourney-info">
                 <h3>Interested in Tournaments?</h3>
                 <p>So are we! The Dragon's Hoard is happy to announce we are going to run official and mock tournaments for Magic the Gathering. Please refer to our calendar below for dates on tournament events, or feel free to give us a call for more information. </p>

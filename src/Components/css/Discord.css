@@ -1,0 +1,17 @@
+.discord-container {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 5%;
+}
+
+.discord-container h3 {
+    color: rgba(226, 24, 24, 0.6);
+    font-family: "Magic";
+}
+
+.discord-container img {
+    filter: invert(100%);
+}
+
