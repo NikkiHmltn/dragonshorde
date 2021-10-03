@@ -25,6 +25,7 @@ function Contact() {
     return(
         <>
         <Navbar />
+        <div className="contact-div">
             <form ref={form} onSubmit={handleSubmit}>
                 <div className="container-contact form-group">
                     <div><h2>Contact Us</h2></div>
@@ -49,6 +50,10 @@ function Contact() {
                     <button className="btn btn-danger" disabled={buttonDisabled} type="submit">Send a Message</button>
                 </div>
             </form>
+            </div>
+            <div className="google-div">
+
+            </div>
         <Footer />
         </>
     )

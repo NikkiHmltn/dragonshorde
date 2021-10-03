@@ -62,8 +62,8 @@ export default class Welcome extends Component {
                 <h4>COVID-19 Information</h4>
                 <p>Please check local county and/or state mandates regarding oversight and advisories about  COVID-19 in the area. Additionally, it may be helpful to contact us directly to best understand what safety precautions and requirements we may have in place.</p>
             </div>
-            <div className="calendar">
-            <Iframe src="https://calendar.google.com/calendar/embed?src=dragonshordeslt%40gmail.com&ctz=America%2FLos_Angeles" style={{border: "0"}} width="800" height="600" frameborder="0" scrolling="no"/>        
+            <div className="calendar"> 
+            <Iframe src="https://calendar.google.com/calendar/embed?src=dragonshoardslt%40gmail.com&ctz=America%2FLos_Angeles" style={{border: "0"}} width="800" height="600" frameborder="0" scrolling="no"/>   
             </div>
 
             <div className="conduct">
