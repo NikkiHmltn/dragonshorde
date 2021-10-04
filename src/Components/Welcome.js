@@ -18,41 +18,41 @@ export default class Welcome extends Component {
             <>
             <NavBar />
             <div className="carousel-container fade-in">
-                <div id="carousel-welcome" className="carousel slide carousel-fade" data-bs-ride="carousel">
-                <ol className="carousel-indicators">
-                    <li data-target="#carousel-welcome" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-welcome" data-slide-to="1"></li>star
-                    <li data-target="#carousel-welcome" data-slide-to="2"></li>
-                </ol>
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                    <img src={magiccarousel} className="d-block w-100" alt="..." />
-                    <div className="carousel-caption d-none d-md-block">
-                        <button className="btn btn-danger "><Link to="/collections">View Collection</Link></button>
+                <div id="carousel-welcome" className="carousel slide carousel-fade"  data-ride="carousel">
+                    <ol className="carousel-indicators">
+                        <li data-target="#carousel-welcome" data-slide-to="0" className="active"></li>
+                        <li data-target="#carousel-welcome" data-slide-to="1"></li>
+                        <li data-target="#carousel-welcome" data-slide-to="2"></li>
+                    </ol>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={magiccarousel} className="d-block w-100" alt="first card slide" />
+                        </div>
+                        <div className="carousel-caption d-none d-md-block">
+                            <button className="btn btn-danger "><Link to="/collections">View Collection</Link></button>
+                        </div>
+                        <div className="carousel-item">
+                            <img src={dndcarousel} className="d-block w-100" alt="second card slide" />
+                        </div>
+                        <div className="carousel-caption d-none d-md-block">
+                            <button className="btn btn-danger "><Link to="/dnd"> View D&D Books</Link></button>
+                        </div>
+                        <div className="carousel-item">
+                            <img src={boardgame} className="d-block w-100" alt="..." />
+                        </div>   
+                        <div class="carousel-caption d-none d-md-block">
+                            <button className="btn btn-danger "><Link to="/boardgames"> View Board Games</Link></button>
+                        </div>
                     </div>
-                    </div>
-                    <div className="carousel-item">
-                    <img src={dndcarousel} className="d-block w-100" alt="..." />
-                    <div className="carousel-caption d-none d-md-block">
-                    <button className="btn btn-danger "><Link to="/dnd"> View D&D Books</Link></button>
-                    </div>
-                    </div>
-                    <div className="carousel-item">
-                    <img src={boardgame} className="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                        <button className="btn btn-danger "><Link to="/boardgames"> View Board Games</Link></button>
-                    </div>
-                    </div>
+                    <a className="carousel-control-prev" href="#carousel-welcome" role="button" data-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carousel-welcome" role="button" data-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="sr-only">Next</span>
+                    </a>
                 </div>
-                <a className="carousel-control-prev" href="#carousel-welcome" role="button" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carousel-welcome" role="button" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </a>
-            </div>
             </div>
             <br></br>
             <ShopLinks />
