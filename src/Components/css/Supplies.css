@@ -7,29 +7,62 @@
 }
 
 .supplies-intro {
-    width: 50%;
+    width: 30%;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 0%;
+}
+
+.supplies-intro > h1 {
+    font-family: "Magic";
+    text-align: center;
+    margin: 0 auto;
 }
 
 .supplies-dice {
     display: flex;
     flex-flow: row nowrap;
-    align-content: space-between;
-    justify-content: space-evenly;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    width: 70%;
+    /* align-content: space-between; */
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    width: 80%;
+}
+
+.dice-main {
+    width: 40%;
+    padding-right: 10%;
+    height: auto;
+    font-size: 18px;
+}
+
+.dice-main > h2 {
+    font-size: 50px;
+
+}
+
+.dice-img {
+   width: 45%;
+   height: 30%;
+   text-align: center;
+   overflow: hidden;
+}
+
+.dice-img > img {
+    width: 100%;
+    height: 100%;
+    margin: -53% 0px 0px 0px;
 }
 
 .supplies-main {
     text-align: center;
+    font-size: 18px;
+
 }
 
 .dice-main > h2 {
+    font-size: 50px;
     font-family: "Magic";
     color: rgba(226, 24, 24, 0.6);
-
 }
 
 .card-accesories {
@@ -37,29 +70,71 @@
     flex-flow: row nowrap;
     align-content: space-between;
     justify-content: space-evenly;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 80%;
+}
+
+.car-acc-main {
+    padding-right: 10%;
+    font-size: 18px;
+    width: 50%;
+    height: auto;
 }
 
 .car-acc-main > h2 {
+    font-size: 50px;
     font-family: "Magic";
     color: rgba(226, 24, 24, 0.6);
-
 }
+
+.car-acc-img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    overflow: hidden;
+ }
+ 
+ .car-acc-img > img {
+     width: 100%;
+     height: 100%;
+     margin: 0% -40% 0 -50%;
+    }
+
 .card-storage {
     display: flex;
     display: flex;
     flex-flow: row nowrap;
     align-content: space-between;
     justify-content: space-evenly;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 10%;
-    width: 70%;
+    width: 80%;
+}
+
+.storage-main {
+    padding-right: 10%;
+    width: 50%;
+    height: 100%;
+    font-size: 18px;
 }
 
 .storage-main > h2 {
     font-family: "Magic";
     color: rgba(226, 24, 24, 0.6);
+    font-size: 50px;
 
 }
+
+.storage-img {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    overflow: hidden;
+ }
+ 
+ .storage-img > img {
+     width: 100%;
+     height: 100%;
+     margin: -40% -2% -20% -2%;
+ }
