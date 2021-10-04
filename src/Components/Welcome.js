@@ -6,9 +6,9 @@ import Iframe from 'react-iframe'
 import {Link} from 'react-router-dom'
 import ShopLinks from './ShopLinks'
 import './css/Welcome.css'
-import magiccarousel from './imgs/khm_key_1080p_en.jpg'
+import boardgame from './imgs/boardgames.JPG'
+import magiccarousel from './imgs/magic-cards.JPG'
 import dndcarousel from './imgs/dnd_cosr_productimg2.png'
-import boardgame from './imgs/dndsetup.jpg'
 
 
 export default class Welcome extends Component {
