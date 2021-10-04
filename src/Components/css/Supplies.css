@@ -1,0 +1,65 @@
+.supplies-main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.supplies-intro {
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.supplies-dice {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+
+.supplies-main {
+    text-align: center;
+}
+
+.dice-main > h2 {
+    font-family: "Magic";
+    color: rgba(226, 24, 24, 0.6);
+
+}
+
+.card-accesories {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+
+.car-acc-main > h2 {
+    font-family: "Magic";
+    color: rgba(226, 24, 24, 0.6);
+
+}
+.card-storage {
+    display: flex;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 70%;
+}
+
+.storage-main > h2 {
+    font-family: "Magic";
+    color: rgba(226, 24, 24, 0.6);
+
+}

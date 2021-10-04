@@ -16,6 +16,7 @@ function NavBar() {
                         <div class="navbar-nav">
                             <NavLink className="nav-item nav-link" id="selection-nav" exact to="/welcome">HOME</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/collections">COLLECTIONS</NavLink>
+                            <NavLink className="nav-item nav-link" id="selection-nav" to="/supplies">SUPPLIES</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/boardgames">BOARDGAMES</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/dnd">D&D</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/contact">CONTACT</NavLink>

@@ -5,6 +5,7 @@ import Events from './Components/Events'
 import Contact from './Components/Contact'
 import BoardGames from './Components/BoardGames'
 import Dnd from './Components/Dnd'
+import Supplies from './Components/Supplies'
 import {Route} from 'react-router-dom'
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/contact" component={Contact} />
       <Route path="/boardgames" component={BoardGames} />
       <Route path="/dnd" component={Dnd} />
+      <Route path="/supplies" component={Supplies} />
     </div>
   );
 }
