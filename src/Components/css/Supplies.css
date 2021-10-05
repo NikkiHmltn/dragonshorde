@@ -157,14 +157,14 @@
         width: 100%;
         margin: 0 auto;
     }
-    .storage-img > img {
-        display: none;
+    .storage-img {
+        width: 100%;
     }
-    .car-acc-img > img {
-        display: none;
+    .car-acc-img {
+        width: 100%;
     }
-    .dice-img > img {
-        display: none;
+    .dice-img {
+        width: 100%;
     }
     .dice-main > h2 {
         font-size: 35px;

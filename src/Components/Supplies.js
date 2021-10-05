@@ -8,6 +8,10 @@ import dragon from './imgs/dragon.png'
 
 
 function Supplies( ) {
+
+    const width = window.innerWidth;
+    const breakpoint = 786;
+
     return(
         <div className="supplies">
             <NavBar/>
@@ -32,6 +36,19 @@ function Supplies( ) {
                         <img src={Dice} alt="#" />
                     </div>
                 </div>
+                {width < breakpoint ? 
+                <div className="card-accesories">
+                    <div className="car-acc-main">
+                        <h2>Card Accesories</h2>
+                        <p>Make sure your cards stay clean and mint with our card sleeves. We sell sleeves varying in colors and durability depending on your needs. Feel free to check out our playmats, too! Perfect for any tournament or game. </p>
+                    </div>
+                    <div className="car-acc-img">
+                        <img src={Sleeves} alt="#" />
+                    </div>
+                </div>
+                
+                :
+    
                 <div className="card-accesories">
                     <div className="car-acc-img">
                         <img src={Sleeves} alt="#" />
@@ -40,7 +57,7 @@ function Supplies( ) {
                         <h2>Card Accesories</h2>
                         <p>Make sure your cards stay clean and mint with our card sleeves. We sell sleeves varying in colors and durability depending on your needs. Feel free to check out our playmats, too! Perfect for any tournament or game. </p>
                     </div>
-                </div>
+                </div> }
                 <div className="card-storage">
                     <div className="storage-main">
                         <h2>Card Storage</h2>
