@@ -9,9 +9,8 @@ function Contact() {
     const [buttonDisabled, setButtonDisabled] = useState(true)
     const form = useRef()
     emailjs.init(process.env.REACT_APP_USER_ID); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
-   console.log(process.env)
    const sitekey = process.env.REACT_APP_RECAPTCHA
-   console.log(sitekey)
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
