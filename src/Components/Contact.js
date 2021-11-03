@@ -22,6 +22,10 @@ function Contact() {
         });
     } 
 
+    const changeDisabled = (value) => {
+        setButtonDisabled(false)
+        console.log(value)
+    }
     return(
         <>
         <Navbar />
@@ -42,7 +46,7 @@ function Contact() {
                     </div>
                     <Reaptcha 
                         sitekey={sitekey} 
-                        onChange={()=>setButtonDisabled(false)}
+                        onChange={changeDisabled}
                     />
                     {/* <Recaptcha 
                         // ref={recaptchaRef}
