@@ -44,7 +44,7 @@ function Contact() {
                     </div>
                     <Recaptcha 
                         // ref={recaptchaRef}
-                        sitekey={process.env.REACT_APP_SITEKEY}
+                        data-sitekey={process.env.REACT_APP_RECAPTCHA}
                         size="normal"
                         id="recaptcha-google"
                         onChange={()=>setButtonDisabled(false)}
