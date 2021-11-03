@@ -9,7 +9,8 @@ function Contact() {
     const [buttonDisabled, setButtonDisabled] = useState(true)
     const form = useRef()
     emailjs.init(process.env.REACT_APP_USER_ID); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
-   const sitekey = process.env.REACT_APP_RECAPTCHA
+    const sitekey = process.env.REACT_APP_RECAPTCHA
+    const recaptchaRef = useRef();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -45,6 +46,7 @@ function Contact() {
                         <textarea className="form-control" placeholder="Message Here" name="message" id="message" rows="5" required/>
                     </div>
                     <Reaptcha 
+                        ref={recaptchaRef}
                         sitekey={sitekey} 
                         onChange={changeDisabled}
                     />
