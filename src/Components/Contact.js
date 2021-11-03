@@ -9,12 +9,14 @@ function Contact() {
     const [buttonDisabled, setButtonDisabled] = useState(true)
     const form = useRef()
 
-    const RECAPTCHA_KEY = "6LfRPn4cAAAAAAPyDiVAlhNozyMQKOhSWtNlZtMa"
+    
+    emailjs.init(process.env.REACT_APP_USER_ID); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
+   
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, process.env.USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -42,8 +44,8 @@ function Contact() {
                     </div>
                     <Recaptcha 
                         // ref={recaptchaRef}
-                        sitekey={RECAPTCHA_KEY}
-                        size="nromal"
+                        sitekey={process.env.REACT_APP_RECAPTCHA}
+                        size="normal"
                         id="recaptcha-google"
                         onChange={()=>setButtonDisabled(false)}
                     />

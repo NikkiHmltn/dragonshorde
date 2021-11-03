@@ -7,13 +7,13 @@ function NavBar() {
     
     return(
         <>
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
-                <div class="container-fluid">
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+                <div className="container-fluid">
+                    <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav">
+                    <div className="collapse navbar-collapse" id="navbarCollapse">
+                        <div className="navbar-nav">
                             <NavLink className="nav-item nav-link" id="selection-nav" exact to="/welcome">HOME</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/collections">COLLECTIONS</NavLink>
                             <NavLink className="nav-item nav-link" id="selection-nav" to="/supplies">SUPPLIES</NavLink>
