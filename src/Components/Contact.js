@@ -1,6 +1,6 @@
 import React,{ useRef, useState } from 'react'
-import Recaptcha from 'react-google-recaptcha'
 import emailjs from 'emailjs-com'
+import Reaptcha from 'reaptcha';
 import Footer from './Footer'
 import Navbar from './NavBar'
 import './css/Contact.css'
@@ -8,10 +8,8 @@ import './css/Contact.css'
 function Contact() {
     const [buttonDisabled, setButtonDisabled] = useState(true)
     const form = useRef()
-
-    
     emailjs.init(process.env.REACT_APP_USER_ID); // Obtain your user ID at the dashboard https://dashboard.emailjs.com/integration
-   
+   console.log(process.env)
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -42,13 +40,16 @@ function Contact() {
                     <div className="input-forms">
                         <textarea className="form-control" placeholder="Message Here" name="message" id="message" rows="5" required/>
                     </div>
-                    <Recaptcha 
-                        // ref={recaptchaRef}
-                        sitekey={process.env.REACT_APP_RECAPTCHA}
-                        size="normal"
-                        id="recaptcha-google"
+                    <Reaptcha 
+                        sitekey={process.env.REACT_APP_RECAPTCHA} 
                         onChange={()=>setButtonDisabled(false)}
                     />
+                    {/* <Recaptcha 
+                        // ref={recaptchaRef}
+                        sitekey={process.env.REACT_APP_RECAPTCHA}
+                        id="recaptcha-google"
+                        onChange={()=>setButtonDisabled(false)}
+                    /> */}
                     <button className="btn btn-danger" disabled={buttonDisabled} type="submit">Send a Message</button>
                 </div>
             </form>
