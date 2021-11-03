@@ -48,7 +48,7 @@ function Contact() {
                     <Reaptcha 
                         ref={recaptchaRef}
                         sitekey={sitekey} 
-                        onChange={changeDisabled}
+                        onVerify={changeDisabled}
                     />
                     {/* <Recaptcha 
                         // ref={recaptchaRef}
